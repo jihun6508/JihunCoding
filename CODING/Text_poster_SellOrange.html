@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>텍스트 연습</title>
+    <style>
+        table, th, td{
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+        }
+        th, td{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <embed src="medias/spring.mp3">
+    <img src="images/tangerines.jpg" alt="레드향" width="">
+    <h1>
+        레드향
+    </h1>
+    <p>
+        껍질에 붉은 빛이 돌아 <b>레드향</b>이라 불린다.        
+    </p>
+    <p>
+        <mark>레드향</mark>은 <em>한라봉과 귤을 교배</em>한 것으로<br>
+        일반 귤보다 2~3배 크고, 과육이 붉고 통통하다
+    </p>
+    <p>
+        <i>비타민 C</i>와 <i>비타민 P</i>가 풍부해<br>
+            <strong>혈액순환, 감기예방</strong> 등에 좋은 것으로 알려져 있다
+    </p>
+    <p>
+        루비(Ruby)는 1995년 일본의 프로그래머인 <ruby>마츠모토 유키히로<rt>Matsumoto Yukihiro</rt></ruby>가 만든 프로그래밍 언어입니다
+    </p>
+    <img src="../img/salad.jpg" alt="샐러드" width="50%" height="50%">
+    <h2>
+        레드향 샐러드 레시피
+    </h2>
+    <p>
+        <h4>재료: </h4>레드향 1개, 아보카도 1개, 토마토 1개, 샐러드 채소 30g
+    </p>
+    <p>
+        <h4>드레싱 : </h4>올리브유 1큰술, 레몬즙 2큰술, 꿀 1큰술, 소금 약간
+    </p>
+    <p>
+        <h4>재료 준비 </h4>
+    </p>
+    <ol type="a">
+        <li>샐러드 채소를 씻고 물기를 제거한 후 준비합니다.</li>
+        <li>레드향과 아보카도, 토마토를 먹기 좋은 크기로 썰어둡니다.</li>
+    </ol>
+    <p>
+        <h4>드레싱 준비 </h4>
+    </p>
+    <ol type="a", start="3">
+        <li>드레싱 재료를 믹서에 갈아줍니다.</li>
+    </ol>
+    <p>
+        <h4>샐러드 완성 </h4>
+    </p>
+    <ol type="a", start="4">
+        <li>볼에 샐러드 채소와 썰어 둔 레드향, 아보카도, 토마토를 넣고 드레싱을 뿌리면 끝!</li>
+    </ol>
+<!-- 리스트 상품구성 연습
+    <h2>
+        상품 구성
+    </h2>
+    <dl>
+        <dt>선물용 3kg</dt>
+        <dd>소과 13~16과</dd>
+        <dd>중과 10~12과</dd>
+    </dl>
+    <dl>
+        <dt>선물용 5kg</dt>
+        <dd>중과 15~19과</dd>
+    </dl>
+    -->
+
+    <table>
+        <caption> 선물용과 가정용의 구성</caption>
+        <colgroup>
+            <col style="background-color: #eeeeee;">
+            <col>
+            <col span ="2" style="width: 150px; font-weight: bold;">
+        </colgroup>
+        <thead>
+            <tr style="color: bisque;">
+                <th>용도</th>
+                <th>중량</th>
+                <th>개수</th>
+                <th>가격</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">선물용</td>
+                <td>3kg</td>
+                <td>11~16과</td>
+                <td>35,000원</td>
+            </tr>
+            <tr>
+                <td>5kg</td>
+                <td>18~26과</td>
+                <td>52,000원</td>
+            </tr>
+            <tr>
+                <td rowspan="2">가정용</td>
+                <td>3kg</td>
+                <td>11~16과</td>
+                <td>30,000원</td>
+            </tr>
+            <tr>
+                <td>5kg</td>
+                <td>18~26과</td>
+                <td>47,000원</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>안내문</h2>
+    <object width="900" height="800" data="product.pdf"></object>
+</body>
+</html>
