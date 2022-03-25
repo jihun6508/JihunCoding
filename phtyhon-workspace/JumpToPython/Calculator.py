@@ -8,6 +8,7 @@ class Calculator():
         return sum(self.list)
     def avg(self):
         return mean(self.list)
+    #aaa
     
 ca1 = Calculator([1,2,3,4,5])
 print(ca1.sum())
