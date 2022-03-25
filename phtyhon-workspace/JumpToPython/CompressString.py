@@ -12,6 +12,6 @@ for i in range(len(InputStr)):
             count = 1
     except IndexError:
         pass
-
+#깃허브 테스트를 위한 데이터 추가
 print(ResultStr)
          
