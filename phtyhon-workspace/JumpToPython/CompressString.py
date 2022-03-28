@@ -11,7 +11,8 @@ for i in range(len(InputStr)):
             ResultStr = ResultStr + InputStr[i] + str(count)
             count = 1
     except IndexError:
-        pass
-#깃허브 테스트를 위한 데이터 추가
+        ResultStr = ResultStr + InputStr[i] + str(count)
+        count = 1
+         
 print(ResultStr)
          
